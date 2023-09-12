@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import { Box, Container, Toolbar } from '@mui/material';
 import SkillChart from './components/SkillChart';
 import LinkedInLink from './components/LinkedInLink';
+import WorkTimeline from './components/WorkTimeline';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Typography variant="h3" align="center" marginTop={3}>
            Work Experience
           </Typography>
+          <WorkTimeline/>
         </Container>
       </main>
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
