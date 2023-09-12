@@ -2,6 +2,7 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import { Box, Container, Toolbar } from '@mui/material';
+import SkillChart from './components/SkillChart';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Typography variant="h3" align="center" marginTop={3}>
             Skills
           </Typography>
+          <SkillChart/>
         </Container>
         <Container>
           <Typography variant="h3" align="center" marginTop={3}>
