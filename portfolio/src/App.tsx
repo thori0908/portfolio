@@ -3,6 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import { Box, Container, Toolbar } from '@mui/material';
 import SkillChart from './components/SkillChart';
+import LinkedInLink from './components/LinkedInLink';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
           </Typography>
+          <LinkedInLink/>
         </Toolbar>
       </AppBar>
       <main>
