@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import { Box, Container, Toolbar } from '@mui/material';
 import SkillChart from './components/SkillChart';
 import LinkedInLink from './components/LinkedInLink';
+import GitHubLink from './components/GitHubLink';
 import WorkTimeline from './components/WorkTimeline';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Typography variant="h6" color="inherit" noWrap>
           </Typography>
           <LinkedInLink/>
+          <GitHubLink/>
         </Toolbar>
       </AppBar>
       <main>
