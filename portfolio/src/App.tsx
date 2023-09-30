@@ -15,7 +15,7 @@ function App() {
           <Typography variant="h6" color="inherit" noWrap>
           </Typography>
           <LinkedInLink/>
-          <GitHubLink/>
+          <GitHubLink sx={{ marginLeft: 1 }}/>
         </Toolbar>
       </AppBar>
       <main>
